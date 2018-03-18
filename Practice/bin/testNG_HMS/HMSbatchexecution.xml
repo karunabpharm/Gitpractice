@@ -1,0 +1,64 @@
+<suite name="HMSbatchExecution">
+<Test name="HMS_FULLresults">
+<classes>
+<class name="testNG.HMS_Fullpage">
+<methods>
+<include name="f">
+</include>
+</methods>
+</class>
+</classes>
+</Test>
+
+<Test name="HMS_LinksResults">
+<classes>
+<class name="testNG.HMS_Links">
+<methods>
+<include name="verifying_Links">
+</include>
+</methods>
+</class>
+</classes>
+</Test>
+
+<Test name="HMS_LoginResults">
+<classes>
+<class name="testNG.HMS_login_logout ">
+<methods>
+<include name="verifying_Login">
+</include>
+</methods>
+</class>
+</classes>
+</Test>
+<Test name="HMS_RegistrationResults">
+<classes>
+<class name="testNG.HMS_Login_RegistrationPage ">
+<methods>
+<include name="verifying_Registration">
+</include>
+</methods>
+</class>
+</classes>
+</Test>
+<Test name="HMS_MouseoverResults">
+<classes>
+<class name="testNG.HMS_Mouseoveractions  ">
+<methods>
+<include name=" Mouseover">
+</include>
+</methods>
+</class>
+</classes>
+</Test>
+<Test name="HMS_popupResults">
+<classes>
+<class name="testNG.HMS_Popup">
+<methods>
+<include name="  Popup">
+</include>
+</methods>
+</class>
+</classes>
+</Test>
+</suite>
